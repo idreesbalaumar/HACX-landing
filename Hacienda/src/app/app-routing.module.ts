@@ -4,7 +4,6 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { BlogPostListComponent } from './blog-post-list/blog-post-list.component';
 import { CommoditiesComponent } from './commodities/commodities.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
-import { HomeComponent } from './home/home.component';
 import { JoinUSComponent } from './join-us/join-us.component';
 import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';

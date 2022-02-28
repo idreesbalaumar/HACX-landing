@@ -15,7 +15,6 @@ import { BlogPostListComponent } from './blog-post-list/blog-post-list.component
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ServicePageComponent } from './service-page/service-page.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
-import { HomeComponent } from './home/home.component';
 import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
@@ -33,7 +32,6 @@ import { SliderComponent } from './slider/slider.component';
     ContactUsComponent,
     ServicePageComponent,
     ShoppingCartComponent,
-    HomeComponent,
     SliderComponent
   ],
   imports: [
