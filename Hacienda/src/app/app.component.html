@@ -1,0 +1,78 @@
+<!-- the nav bar goes here -->
+<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+  <div class="container"><a class="navbar-brand d-lg-flex align-items-lg-center logo" routerLink=""
+      style="color: #1e73be;"><img class="img-fluid" src="assets/img/hacienda25.png"
+        style="height: 40px;"><strong>Hacienda</strong></a><button data-toggle="collapse" class="navbar-toggler"
+      data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+        class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navcol-1">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item" role="presentation"><a class="nav-link active" routerLink="/">Home</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" routerLink="/about-us">About Us</a></li>
+        <li class="nav-item" role="presentation"><a class="nav-link" routerLink="/commodities">Commodities</a>
+        </li>
+        <li class="nav-item" role="presentation"><a class="nav-link" routerLink="/contact-us">Contact Us</a>
+        </li>
+        <li class="nav-item" role="presentation" style="padding-right: 15px;"><a class="nav-link text-primary active"
+            href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li class="nav-item" role="presentation" style="padding-right: 15px;"><a class="nav-link text-primary active"
+            href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li class="nav-item" role="presentation" style="padding-right: 10px;"><a class="nav-link text-primary active"
+            href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      </ul><a class="btn btn-primary shadow-sm" role="button" routerLink="/join-us">Join Us</a>
+    </div>
+  </div>
+</nav>
+<!-- the nav bar stops here -->
+
+
+
+<!-- main start -->
+<main class="page landing-page">
+  <div class="pt-3 blue-gradient" style="backroundtop: 0px; color: #fff !important; z-index: 99999 !important;">
+    <div style="height: 38px; width: 100px; position: absolute; z-index: 1; margin-top: -7px;" class="yello-gradient"><p style="text-align: 0 auto; text-align: center; margin-top: 6px; font-weight: bold; ">LIVE DATA</p></div>
+    <marquee behavior="scroll" direction="left" Scrollamount=8>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="mx-7">Sesame Seed Cleaned
+        <strong>₦805,000</strong> <span
+        class="badge bg-success px-2 ml-1">100.00%</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+          class="ml-7">SCIT Maize <strong>₦240,000</strong> <span
+            class="badge bg-danger px-2 ml-1">100.00%</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+          class="mx-7">Sesame Seed Cleaned <strong>₦805,000</strong> <span
+            class="badge bg-success px-2 ml-1">100.00%</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+          class="mx-7">Soyabean <strong>₦400.8</strong> <span
+            class="badge bg-danger px-2 ml-1">100.00%</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+          class="mx-7">Sesame Seed Cleaned <strong>₦805,000</strong> <span
+            class="badge bg-success px-2 ml-1">100.00%</span></span></span>
+    </marquee>
+  </div>
+</main>
+<router-outlet></router-outlet>
+<!-- main end -->
+
+
+
+<!-- the footer goes here -->
+<footer class="page-footer dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3 col-lg-8">
+        <h5><strong>HACIENDA</strong><br></h5>
+        <ul>
+          <li><a href="#">Maximize the value that farmers and other market participants derive from their activities.
+              which is benefiting from a growing commodities ecosystem. In this way, we are indeed growing markets and
+              connecting trade.<br></a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3 col-lg-4">
+        <h5><strong>Contact</strong><br></h5>
+        <ul>
+          <li><a href="#">No 22, I. T. Igbani street,<br>Jabi District,<br>Abuja Nigeria<br>+2348058888668<br></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <p>© 2022 Copyright&nbsp;Hacienda Africa | All Rights Reserved<br></p>
+  </div>
+</footer>
+<!-- the footer stops here -->
