@@ -1,50 +1,16 @@
+<!-- Live Data Starting -->
+<app-nav-live-data></app-nav-live-data>
+<!-- Live Data Ends -->
+
 <!-- the nav bar goes here -->
-<nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-  <div class="container"><a class="navbar-brand d-lg-flex align-items-lg-center logo" routerLink=""
-      style="color: #1e73be;"><img class="img-fluid" src="assets/img/hacienda25.png"
-        style="height: 40px;"><strong>Hacienda</strong></a><button data-toggle="collapse" class="navbar-toggler"
-      data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
-        class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id="navcol-1">
-      <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item" role="presentation"><a class="nav-link active" routerLink="/">Home</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link" routerLink="/about-us">About Us</a></li>
-        <li class="nav-item" role="presentation"><a class="nav-link" routerLink="/commodities">Commodities</a>
-        </li>
-        <li class="nav-item" role="presentation"><a class="nav-link" routerLink="/contact-us">Contact Us</a>
-        </li>
-        <li class="nav-item" role="presentation" style="padding-right: 15px;"><a class="nav-link text-primary active"
-            href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li class="nav-item" role="presentation" style="padding-right: 15px;"><a class="nav-link text-primary active"
-            href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li class="nav-item" role="presentation" style="padding-right: 10px;"><a class="nav-link text-primary active"
-            href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-      </ul><a class="btn btn-primary shadow-sm" role="button" routerLink="/join-us">Join Us</a>
-    </div>
-  </div>
-</nav>
+<div>
+  <app-nav-bar></app-nav-bar>
+</div>
 <!-- the nav bar stops here -->
 
 
 
 <!-- main start -->
-<main class="page landing-page">
-  <div class="pt-3 blue-gradient" style="backroundtop: 0px; color: #fff !important; z-index: 99999 !important;">
-    <marquee behavior="scroll" direction="left" Scrollamount=8>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="mx-7">Sesame Seed Cleaned
-        <strong>₦805,000</strong> <span
-        class="badge bg-success px-2 ml-1">100.00%</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-          class="ml-7">SCIT Maize <strong>₦240,000</strong> <span
-            class="badge bg-danger px-2 ml-1">100.00%</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-          class="mx-7">Sesame Seed Cleaned <strong>₦805,000</strong> <span
-            class="badge bg-success px-2 ml-1">100.00%</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-          class="mx-7">Soyabean <strong>₦400.8</strong> <span
-            class="badge bg-danger px-2 ml-1">100.00%</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
-          class="mx-7">Sesame Seed Cleaned <strong>₦805,000</strong> <span
-            class="badge bg-success px-2 ml-1">100.00%</span></span></span>
-    </marquee>
-  </div>
-</main>
 <router-outlet></router-outlet>
 <!-- main end -->
 
