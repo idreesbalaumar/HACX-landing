@@ -16,6 +16,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ServicePageComponent } from './service-page/service-page.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { SliderComponent } from './slider/slider.component';
+import { NavLiveDataComponent } from './nav-live-data/nav-live-data.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { SliderComponent } from './slider/slider.component';
     ContactUsComponent,
     ServicePageComponent,
     ShoppingCartComponent,
-    SliderComponent
+    SliderComponent,
+    NavLiveDataComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
